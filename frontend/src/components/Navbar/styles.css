@@ -1,0 +1,30 @@
+/* Header Area */
+header{
+    background-color:var(--color-primary);
+  }
+  
+  .dsmovie-contact-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 40px;
+    height:60px;
+  }
+  
+  .dsmovie-contact-container h1{
+    font-size:1.5em;
+    color:white;
+    font-weight: 700;
+    line-height:2em;
+  }
+  
+  .DSMovie-git-container{
+    display:flex;
+    align-items: center;
+    color:#fff;
+    justify-content: space-between;
+  }
+
+  .DSMovie-git-container p {
+      padding-left:10px;
+  }
