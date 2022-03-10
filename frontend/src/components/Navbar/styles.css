@@ -1,29 +1,29 @@
-/* Header Area */
-header{
-    background-color:var(--color-primary);
-  }
-  
-  .dsmovie-contact-container{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    height:60px;
-  }
-  
-  .dsmovie-contact-container h1{
-    font-size:1.5em;
-    color:white;
-    font-weight: 700;
-    line-height:2em;
-  }
-  
-  .DSMovie-git-container{
-    display:flex;
-    align-items: center;
-    color:#fff;
-    justify-content: space-between;
-  }
+header {
+  height: 60px;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
 
-  .DSMovie-git-container p {
-      padding-left:10px;
-  }
+.dsmovie-nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.dsmovie-nav-content h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.dsmovie-contact-container {
+  display: flex;
+  align-items: center;
+}
+
+.dsmovie-contact-link {
+  margin: 0 0 0 10px;
+  font-size: 12px;
+}
