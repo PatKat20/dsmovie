@@ -10,7 +10,7 @@ type Props = {
 }
 
 function FormCard( { movieId } : Props) {
-    
+
     const [movie, setMovie] = useState<Movie>();
 
     useEffect(() => {
